@@ -11,7 +11,7 @@ class Main {
   */
   void init(){
     // print Welcome
-    System.out.prinln("Welcome")
+    
 
     // print Hello with the quotes displayed
     
