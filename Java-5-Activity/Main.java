@@ -1,4 +1,4 @@
-class Main {
+      class Main {
 	public static void main(String[] args) {
     	(new Main()).init();
 	}
@@ -10,9 +10,10 @@ class Main {
     Calculate the sum of the two numbers, store the 
     calculated sum and then display it.    
 */
+  double sum = 0;
   int num1 = 5;
   int num2 = 100;
-  int sum = num1 + num2;
+  sum = num1 + num2;
   System.out.println("Sum is "+ sum); // the '+' represents string concatenation
 
 /*  
@@ -22,8 +23,12 @@ class Main {
     calculated sum and then display it.
     
 */
-  
-
+  sum = 0;
+  double grade1 = 75;
+  double grade2 = 85;
+  double grade3 = 95;
+  sum = grade1 + grade2 + grade3;
+  System.out.println("Sum of the grades is: "+ sum);
 // ****NOTE**** Since the variable 'sum' was declared earlier as an integer, you 
 // don't need to declare it again. If you do so, you will get a syntax error.
 
@@ -37,6 +42,9 @@ class Main {
 
     NOTE: Does it look correct, check with a calculator?
 */
+double average = sum/3.0;
+System.out.println("Average of the 3 grades is: "+ average);
+
 
 
 // **** NOTE **** since sum is an integer we don't want to divide by another integer
@@ -50,6 +58,11 @@ class Main {
     Declare and assign values to any new variables.
 
 */
+double y = 0;
+double A = 14.5;
+double x = 3;
+y = A*1.0/(x+1);
+System.out.println("y = " + y);
 
 
 /*  
@@ -59,12 +72,15 @@ class Main {
 */
  // **** NOTE **** The variable y is already declared above so we don't need to re-declare it.
 
+y = ((2*x)*(x+1)*(-1.0)*x/2)/A*1.0;
+/*
+  
 
-/*  
     Challenge 6:
     Write the equation in file EQ3.PNG in Jave. Create appropriate variables as required.
     Declare and assign values to any new variables.
 */ 
+
 
 
 /*  
