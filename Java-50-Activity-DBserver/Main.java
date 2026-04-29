@@ -49,7 +49,8 @@ class Main {
 
     // Add your code here.....see Problem.txt file for tasks
     String sql = "";
-    sql = "Select * tracks"
+    sql = "Select * tracks";
+    server.createContext("/tracks", new RouteHandler(db,sql) ) ;
 
 
 
